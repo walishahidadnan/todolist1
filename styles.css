@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+::placeholder {
+  color: #fff !important;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, lightblue, blue, darkblue);
+  overflow: hidden;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem 0 0.9rem;
+  padding-top: 30px;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input-div .input {
+  padding: 16px 32px;
+  height: 50px;
+  outline: none;
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 253, 253),
+    rgb(214, 214, 214),
+    rgb(136, 136, 136),
+    rgb(93, 93, 93)
+  );
+  font-size: 36px;
+  margin: 8px;
+  border-radius: 25px;
+  border: none;
+}
+.addbtn {
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+}
+.addbtn:focus {
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+.addbtn:hover {
+  opacity: 0.7;
+}
+
+#listCnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 32px;
+}
+.item {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid black;
+}
+.item-input {
+  background: Lightblue;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 1.4rem;
+}
